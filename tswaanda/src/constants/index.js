@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Efficiency",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "At our core, we strive to improve the way data is captured and processed effectively.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Transparency",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We work in a transparent way guided by following regulations and financial services principles. ",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Community",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We take pride in our relationships and value our employees, stakeholders and the farmers we have set out to serve.",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Farmers Financed",
+    value: "340+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Partners Worldwide",
+    value: "94+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Transactions",
+    value: "$4.6M+",
   },
 ];
 
