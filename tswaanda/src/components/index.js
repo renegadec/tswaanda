@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import Services from "./Services";
 import AppFeatures from "./AppFeatures";
-import Business from "./Business";
+import About from "./About";
 import Partners from "./Partners";
 import CTA from "./CTA";
 import Stats from "./Stats";
@@ -11,9 +11,9 @@ import Hero from "./Hero";
 
 export {
     Navbar,
-    Billing,
+    Services,
     AppFeatures,
-    Business,
+    About,
     Partners,
     CTA,
     Stats,

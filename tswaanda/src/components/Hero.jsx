@@ -16,8 +16,8 @@ const Hero = () => {
                 </div>
 
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1 className="flex-1 font-poppins font-semibold ss:text-[56px] text-[52px] text-white ss:leading-[75px] leading-[75px]">
-                        The Easiest and <br className="sm:block hidden" /> <span className="text-gradient">Profitable</span> way to 
+                    <h1 className="flex-1 font-poppins font-semibold ss:text-[76px] text-[52px] text-white ss:leading-[75px] leading-[75px]">
+                        Introducing <br className="sm:block hidden" /> <span className="text-gradient">trail</span> funding
                     </h1>
 
                     <div className="ss:flex hidden md:mr-1 mr-0">
@@ -25,13 +25,11 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <h1 className="font-poppins font-semibold ss:text-[56px] text-[52px] text-white ss:leading-[75px] leading-[75px] w-full"
-                >Invest in Agriculture.</h1>
+                {/* <h1 className="font-poppins font-semibold ss:text-[56px] text-[52px] text-white ss:leading-[75px] leading-[75px] w-full"
+                >Invest in Agriculture.</h1> */}
 
-                <p className={`${styles.paragraph} max-w-[760px] mt-5`}>
-                    Increasing food security through empowering mid-scale farmers in Africa.
-                    Africa has diverse farming activities that are ineffectively run such that there is no transparency  
-                    - We are here to change that!
+                <p className={`${styles.paragraph} max-w-[460px] mt-5`}>
+                    Making financial transparency achievable for farmers in a fast and easy way.
                 </p>
             </div>
 

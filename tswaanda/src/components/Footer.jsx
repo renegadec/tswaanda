@@ -12,7 +12,7 @@ const Footer = () => (
             className="w-[266px] h-[72.14px] object-contain"
             />
             <p className={`${styles.paragraph} mt-4 ml-5 max-w-[312px]`}>
-            Changing the way you do your farming.
+            Refining the Agriculture Ecosystem.
             </p>
         </div>
 

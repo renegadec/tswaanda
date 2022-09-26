@@ -3,11 +3,10 @@ import {
   Navbar,
   Hero,
   Stats,
-  Business,
-  Billing,
+  About,
+  Services,
   AppFeatures,
   Testimonials,
-  // Partners,
   CTA,
   Footer,
 } from "./components";
@@ -29,11 +28,10 @@ const App = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <Business />
-        <Billing />
+        <About />
+        <Services />
         <AppFeatures />
         <Testimonials />
-        {/* <Partners /> */}
         <CTA />
         <Footer />
       </div>

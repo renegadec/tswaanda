@@ -19,13 +19,13 @@ const FeatureCard = ({ icon, title, content, index}) => (
   </div>
 )
 
-const Business = () => {
+const About = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="about" className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the farming,<br className='sm:block hidden' /> we'll handle the financing.</h2>
+        <h2 className={styles.heading2}>How we work.</h2>
 
-        <p className={`${styles.paragraph} max-w-[680px] mt-5`}>Tswaanda will consult farmers that want to increase their production but lack the funding to do so. We will help our clients attain economic utilization of the major markets for agriculture as well as minor components that can be functionalized into high-value specialty products.</p>
+        {/* <p className={`${styles.paragraph} max-w-[680px] mt-5`}>Tswaanda will consult farmers that want to increase their production but lack the funding to do so. We will help our clients attain economic utilization of the major markets for agriculture as well as minor components that can be functionalized into high-value specialty products.</p> */}
 
         <Button styles="mt-10" />
       </div>
@@ -39,4 +39,4 @@ const Business = () => {
   )
 }
 
-export default Business
+export default About

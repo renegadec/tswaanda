@@ -6,12 +6,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "services",
+    title: "Services",
   },
   {
     id: "clients",
@@ -20,7 +20,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact Us"
-  }
+  },
 ];
 
 export const features = [
@@ -29,21 +29,21 @@ export const features = [
     icon: star,
     title: "Efficiency",
     content:
-      "At our core, we strive to improve the way data is captured and processed effectively.",
+      "At our core, we strive to improve the way data is captured, processed and stored effectively - tracking the agriculture production ecosystem in a way that helps the agricultural industry as a whole.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Transparency",
     content:
-      "We work in a transparent way guided by following regulations and financial services principles. ",
+      "We use technology that allows us to work in a transparent way guided by following regulations and financial services principles.. ",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Community",
     content:
-      "We take pride in our relationships and value our employees, stakeholders and the farmers we have set out to serve.",
+      "All our services and processes are created with the needs of the customers in mind, and we take pride in our relationships and value our employees, stakeholders and the farmers serve.",
   },
 ];
 
