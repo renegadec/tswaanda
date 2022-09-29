@@ -10,8 +10,8 @@ const Hero = () => {
                 >
                     <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
                     <p className={`${styles.paragraph} ml-2`}>
-                        <span className="text-white">15%</span> Discount For {" "}
-                        <span className="text-white">The First 2 Months</span>
+                        <span className="text-white">Sign Up</span> Now and {" "}
+                        <span className="text-white">get the First Month Free!</span>
                     </p>
                 </div>
 

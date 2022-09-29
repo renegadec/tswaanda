@@ -14,8 +14,8 @@ export const navLinks = [
     title: "Services",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "testimony",
+    title: "Testimony",
   },
   {
     id: "contact",
@@ -36,7 +36,7 @@ export const features = [
     icon: shield,
     title: "Transparency",
     content:
-      "We use technology that allows us to work in a transparent way guided by following regulations and financial services principles.. ",
+      "We use blockchain technology that allows us to work in a transparent way guided by following regulations and financial services principles.. ",
   },
   {
     id: "feature-3",
