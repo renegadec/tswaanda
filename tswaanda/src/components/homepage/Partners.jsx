@@ -1,5 +1,5 @@
-import { partners } from "../constants";
-import styles from "../style";
+import { partners } from "../../constants";
+import styles from "../../style";
 
 const Partners = () => (
   <section className={`${styles.flexCenter} my-4`}>

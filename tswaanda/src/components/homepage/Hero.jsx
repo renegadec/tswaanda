@@ -1,6 +1,6 @@
-import styles from "../style";
-import { discount, robot } from "../assets";
-import GetStarted from './GetStarted'
+import styles from "../../style";
+import { discount, robot } from "../../assets/homepage";
+import GetStarted from './GetStarted';
 
 const Hero = () => {
     return (
@@ -24,9 +24,6 @@ const Hero = () => {
                         <GetStarted />
                     </div>
                 </div>
-
-                {/* <h1 className="font-poppins font-semibold ss:text-[56px] text-[52px] text-white ss:leading-[75px] leading-[75px] w-full"
-                >Invest in Agriculture.</h1> */}
 
                 <p className={`${styles.paragraph} max-w-[460px] mt-5`}>
                     Making financial transparency achievable for farmers in a fast and easy way.

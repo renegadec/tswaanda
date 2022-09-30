@@ -1,5 +1,5 @@
-import { apple, bill, google } from '../assets';
-import styles, { layout } from '../style';
+import { apple, bill, google } from '../../assets/homepage';
+import styles, { layout } from '../../style';
 
 const Services = () => (
   <section id="services" className={layout.sectionReverse}>

@@ -1,4 +1,18 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, xdc, binance, coinbase, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  xdc,
+  binance,
+  coinbase,
+  send,
+  shield,
+  star,
+} from "../assets/homepage";
 
 export const navLinks = [
   {
@@ -19,7 +33,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "Contact Us"
+    title: "Contact Us",
   },
 ];
 
@@ -97,20 +111,12 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.tswaanda.com/content/",
+        name: "Getting Started",
+        link: "https://www.tswaanda.com/getting-started/",
       },
       {
-        name: "How it Works",
-        link: "https://www.tswaanda.com/how-it-works/",
-      },
-      {
-        name: "Invest",
-        link: "https://www.tswaanda.com/create/",
-      },
-      {
-        name: "Funding",
-        link: "https://www.tswaanda.com/explore/",
+        name: "FAQ",
+        link: "https://www.tswaanda.com/faq/",
       },
       {
         name: "Terms & Services",
@@ -122,20 +128,20 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.tswaanda.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.tswaanda.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.tswaanda.com/suggestions/",
-      },
-      {
         name: "Blog",
         link: "https://www.tswaanda.com/blog/",
+      },
+      {
+        name: "Library",
+        link: "https://www.tswaanda.com/library/",
+      },
+      {
+        name: "Investment Forum",
+        link: "https://www.tswaanda.com/forum/",
+      },
+      {
+        name: "Chat Room",
+        link: "https://www.tswaanda.com/chat/",
       },
       {
         name: "Newsletters",
