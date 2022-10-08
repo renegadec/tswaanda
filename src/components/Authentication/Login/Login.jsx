@@ -7,6 +7,7 @@ import Loading from '../../Loading';
 import styles from '../../../style';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
+
 const Login = () => {
     const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
     const [
@@ -27,7 +28,7 @@ const Login = () => {
     if (loading || gloading) {
         return <Loading></Loading>
     }
-
+    console.log(error);
     const onSubmit = async data => {
         const email = data.email;
         const password = data.password;
@@ -106,7 +107,7 @@ const Login = () => {
                             {gerror && <label className="label text-error">
                                 {gerror?.message}
                             </label>}
-                            <input className="btn btn-secondary w-full" type="submit" value='Login' />
+                            <input className="btn btn-accent w-full" type="submit" value='Login' />
                         </form>
                         <div className='flex items-center'>
                             <label className="label">
