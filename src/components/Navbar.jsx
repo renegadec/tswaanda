@@ -61,19 +61,13 @@ const Navbar = () => {
             :
             <>
               <li
-                className={`font-poppins cursor-pointer text-[16px] mr-10 text-white btn btn-outline btn-accent`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white`}
               >
                 <Link to='/login'>
                   Login
                 </Link>
               </li>
-              {/* <li
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}
-              >
-                <Link to='/register'>
-                  Register
-                </Link>
-              </li> */}
+            
             </>
         }
 
@@ -140,13 +134,7 @@ const Navbar = () => {
                       Login
                     </Link>
                   </li>
-                  <li
-                    className={`font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white`}
-                  >
-                    <Link to='/register'>
-                      Register
-                    </Link>
-                  </li>
+                  
                 </>
 
             }

@@ -23,7 +23,7 @@ const Register = () => {
         return <Loading></Loading>
     }
     if (user || guser) {
-        navigate('/');
+        navigate('/dashboard');
     }
     const onSubmit = async data => {
         const name = data.name;
@@ -35,6 +35,8 @@ const Register = () => {
     const handleSignInGoogle = () => {
         signInWithGoogle();
     }
+    console.log(error);
+    console.log(gerror);
     return (
         <div>
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -44,7 +46,7 @@ const Register = () => {
             </div>
             <div className='flex justify-center mt-6 mb-16 z-0  ml-3 mr-3'>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-white">
-                    <h1 className='text-2xl text-center text-accent mt-4 mb-0'>Create a New Account</h1>
+                    <h1 className='text-2xl text-center mt-4 mb-0 text-accent'>Create a New Account</h1>
                     <div className="card-body pt-2 pb-2">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
@@ -117,10 +119,10 @@ const Register = () => {
 
                             </div>
                             {error && <label className="label text-error">
-                                {error?.message}
+                                <small>{error?.message.split('/')[1].slice(0,-2)}</small>
                             </label>}
                             {gerror && <label className="label text-error">
-                                {gerror?.message}
+                                <small>{gerror?.message.split('/')[1].slice(0,-2)}</small>
                             </label>}
                             <input className="btn btn-outline btn-accent w-full" type="submit" value='Register' />
                         </form>
@@ -133,7 +135,7 @@ const Register = () => {
                             </label>
                         </div>
                         <div className="divider">OR</div>
-                        <button onClick={handleSignInGoogle} className="btn btn-accent mb-4">sign up with Google</button>
+                        <button onClick={handleSignInGoogle} className="btn btn-accent mb-6">sign in with Google</button>
                     </div>
                 </div>
 

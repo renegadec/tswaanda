@@ -7,7 +7,6 @@ import Loading from '../../Loading';
 import styles from '../../../style';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-
 const Login = () => {
     const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
     const [
@@ -17,18 +16,16 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
     const navigate = useNavigate();
-    let location = useLocation();
     const { register, formState: { errors }, handleSubmit } = useForm();
-    let from = location.state?.from?.pathname || "/";
 
     if (user || guser) {
-        navigate(from, { replace: true });
+        navigate('/dashboard');
     }
 
     if (loading || gloading) {
         return <Loading></Loading>
     }
-    console.log(error);
+
     const onSubmit = async data => {
         const email = data.email;
         const password = data.password;
@@ -47,7 +44,7 @@ const Login = () => {
             </div>
             <div className='flex justify-center mt-8 mb-8 ml-3 mr-3'>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-white">
-                    <h1 className='text-3xl text-center mt-4 mb-0 text-accent'>Login</h1>
+                    <h1 className='text-3xl text-center mt-4 mb-0'>Login</h1>
                     <div className="card-body pt-4 pb-10">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
@@ -102,12 +99,12 @@ const Login = () => {
                                 </label>
                             </div>
                             {error && <label className="label text-error">
-                                {error?.message}
+                                <small>{error?.message.split('/')[1].slice(0,-2)}</small>
                             </label>}
                             {gerror && <label className="label text-error">
-                                {gerror?.message}
+                                <small>{gerror?.message.split('/')[1].slice(0,-2)}</small>
                             </label>}
-                            <input className="btn btn-outline btn-accent w-full" type="submit" value='Login' />
+                            <input className="btn btn-accent w-full" type="submit" value='Login' />
                         </form>
                         <div className='flex items-center'>
                             <label className="label">
