@@ -44,7 +44,7 @@ const Register = () => {
             </div>
             <div className='flex justify-center mt-6 mb-16 z-0  ml-3 mr-3'>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-white">
-                    <h1 className='text-2xl text-center mt-4 mb-0'>Create a New Acoount</h1>
+                    <h1 className='text-2xl text-center text-accent mt-4 mb-0'>Create a New Account</h1>
                     <div className="card-body pt-2 pb-2">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
@@ -54,7 +54,7 @@ const Register = () => {
                                 <input
                                     type="name"
                                     placeholder="Name"
-                                    className="input input-bordered"
+                                    className="input input-bordered input-accent bg-white"
                                     {...register("name", {
                                         required: {
                                             value: true,
@@ -74,7 +74,7 @@ const Register = () => {
                                 <input
                                     type="email"
                                     placeholder="Email"
-                                    className="input input-bordered"
+                                    className="input input-bordered input-accent bg-white"
                                     {...register("email", {
                                         required: {
                                             value: true,
@@ -98,7 +98,7 @@ const Register = () => {
                                 <input
                                     type="password"
                                     placeholder="Password"
-                                    className="input input-bordered"
+                                    className="input input-bordered input-accent bg-white"
                                     {...register("password", {
                                         required: {
                                             value: true,
@@ -122,18 +122,18 @@ const Register = () => {
                             {gerror && <label className="label text-error">
                                 {gerror?.message}
                             </label>}
-                            <input className="btn btn-secondary w-full" type="submit" value='Register' />
+                            <input className="btn btn-outline btn-accent w-full" type="submit" value='Register' />
                         </form>
                         <div className='flex items-center'>
                             <label className="label">
                                 <small>Already have an account?</small>
                             </label>
                             <label className="label">
-                                <Link to='/login' className="label-text-alt link link-hover link-secondary ml-0">Login</Link>
+                                <Link to='/login' className="label-text-alt link link-hover link-accent ml-0">Login</Link>
                             </label>
                         </div>
                         <div className="divider">OR</div>
-                        <button onClick={handleSignInGoogle} className="btn btn-secondary">sign in with Google</button>
+                        <button onClick={handleSignInGoogle} className="btn btn-accent mb-4">sign up with Google</button>
                     </div>
                 </div>
 

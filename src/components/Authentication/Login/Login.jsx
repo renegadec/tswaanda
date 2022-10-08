@@ -47,7 +47,7 @@ const Login = () => {
             </div>
             <div className='flex justify-center mt-8 mb-8 ml-3 mr-3'>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-white">
-                    <h1 className='text-3xl text-center mt-4 mb-0'>Login</h1>
+                    <h1 className='text-3xl text-center mt-4 mb-0 text-accent'>Login</h1>
                     <div className="card-body pt-4 pb-10">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
@@ -57,7 +57,7 @@ const Login = () => {
                                 <input
                                     type="email"
                                     placeholder="Email"
-                                    className="input input-bordered"
+                                    className="input input-bordered input-accent bg-white"
                                     {...register("email", {
                                         required: {
                                             value: true,
@@ -81,7 +81,7 @@ const Login = () => {
                                 <input
                                     type="password"
                                     placeholder="Password"
-                                    className="input input-bordered"
+                                    className="input input-bordered input-accent bg-white"
                                     {...register("password", {
                                         required: {
                                             value: true,
@@ -98,7 +98,7 @@ const Login = () => {
                                     {errors.password?.type === 'pattern' && <span className="label-text-alt text-red-500">{errors.password?.message}</span>}
                                 </label>
                                 <label className="label text-secondary">
-                                    <a href="#" className="label-text-alt link link-hover link-secondary">Forgot password?</a>
+                                    <a href="#" className="label-text-alt link link-hover link-accent">Forgot password?</a>
                                 </label>
                             </div>
                             {error && <label className="label text-error">
@@ -107,18 +107,18 @@ const Login = () => {
                             {gerror && <label className="label text-error">
                                 {gerror?.message}
                             </label>}
-                            <input className="btn btn-accent w-full" type="submit" value='Login' />
+                            <input className="btn btn-outline btn-accent w-full" type="submit" value='Login' />
                         </form>
                         <div className='flex items-center'>
                             <label className="label">
                                 <small>Don't have an account?</small>
                             </label>
                             <label className="label">
-                                <Link to='/register' className="label-text-alt link link-hover link-secondary">Register now</Link>
+                                <Link to='/register' className="label-text-alt link link-hover link-accent">Register now</Link>
                             </label>
                         </div>
                         <div className="divider">OR</div>
-                        <button onClick={handleSignInGoogle} className="btn btn-secondary">sign in with Google</button>
+                        <button onClick={handleSignInGoogle} className="btn btn-accent">sign in with Google</button>
                     </div>
                 </div>
 

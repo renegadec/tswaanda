@@ -61,19 +61,19 @@ const Navbar = () => {
             :
             <>
               <li
-                className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white`}
+                className={`font-poppins cursor-pointer text-[16px] mr-10 text-white btn btn-outline btn-accent`}
               >
                 <Link to='/login'>
                   Login
                 </Link>
               </li>
-              <li
+              {/* <li
                 className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}
               >
                 <Link to='/register'>
                   Register
                 </Link>
-              </li>
+              </li> */}
             </>
         }
 
