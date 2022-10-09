@@ -44,7 +44,7 @@ const Login = () => {
             </div>
             <div className='flex justify-center mt-8 mb-8 ml-3 mr-3'>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-white">
-                    <h1 className='text-3xl text-center mt-4 mb-0'>Login</h1>
+                    <h1 className='text-3xl text-center mt-4 mb-0 text-accent'>Login</h1>
                     <div className="card-body pt-4 pb-10">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
@@ -122,9 +122,9 @@ const Login = () => {
 
             </div>
             <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Footer />
-      </div>
+        <div className={`${styles.boxWidth}`}>
+            <Footer />
+        </div>
     </div>
         </div>
 

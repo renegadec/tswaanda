@@ -61,7 +61,7 @@ const Navbar = () => {
             :
             <>
               <li
-                className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white btn btn-outline btn-primary`}
               >
                 <Link to='/login'>
                   Login
