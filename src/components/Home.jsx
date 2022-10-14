@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../style';
 import About from './About';
 import AppFeatures from './AppFeatures';
+import Contact from './Contact';
 import CTA from './CTA';
 import Footer from './Footer';
 import Hero from './Hero';
@@ -31,6 +32,7 @@ const Home = () => {
                     <Services />
                     <AppFeatures />
                     <Testimonials />
+                    <Contact />
                     <CTA />
                 </div>
             </div>

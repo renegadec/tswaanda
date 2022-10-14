@@ -9,7 +9,8 @@ const AppFeatures = () => (
 
       <p className={`${styles.paragraph} max-w-[590px] mt-5`}>
         Farm wisely by consulting with us on - 
-          <ul>
+      </p>
+          <ul className={`${styles.paragraph}`}>
             <li className='pt-4'>
                 <strong>1. Investment Development</strong>
                 <p>Achieve your commercial supremacy using go-to market strategies and effective sales executions</p>
@@ -23,7 +24,7 @@ const AppFeatures = () => (
                 <p>innovative thinking and fore-casting near-term changes in the agriculture ecosystem volatility</p>
             </li>
           </ul>
-      </p>
+      
 
       <Button styles="mt-10" />
     </div>
