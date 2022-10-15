@@ -52,7 +52,7 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Tswaanda helped me commercialize my farming business. I never imagined I could export my produce.",
-    name: "Sammy Mhuri",
+    name: "Mrs Mhuri",
     title: "Commercial Farmer",
     img: people01,
   },
