@@ -826,14 +826,14 @@ export const themeColors = [
   },
   {
     name: 'green-theme',
-    color: '#03C9D7',
+    color: '#01422c',
   },
   {
-    name: 'purple-theme',
-    color: '#7352FF',
+    name: 'brown-theme',
+    color: '#bc6c24',
   },
   {
-    name: 'red-theme',
+    name: 'pink-theme',
     color: '#FF5C8E',
   },
   {
