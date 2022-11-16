@@ -61,7 +61,7 @@ const Contact = () => {
     useEffect( () => {
         if(Object.keys(formError).length === 0 && isSubmit)
         {
-            toast.success("Form submitted")
+            toast.success("Message Sent. Thank you!")
         }
     }, [isSubmit]);
 

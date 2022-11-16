@@ -654,15 +654,15 @@ export const earningData = [
 ];
 
 export const recentTransactions = [
-  {
-    icon: <BsCurrencyDollar />,
-    amount: '+$350',
-    title: 'Paypal Transfer',
-    desc: 'Money Added',
-    iconColor: '#03C9D7',
-    iconBg: '#E5FAFB',
-    pcColor: 'green-600',
-  },
+  // {
+  //   icon: <BsCurrencyDollar />,
+  //   amount: '+$350',
+  //   title: 'Paypal Transfer',
+  //   desc: 'Money Added',
+  //   iconColor: '#03C9D7',
+  //   iconBg: '#E5FAFB',
+  //   pcColor: 'green-600',
+  // },
   {
     icon: <BsShield />,
     amount: '-$560',
@@ -675,7 +675,7 @@ export const recentTransactions = [
   {
     icon: <FiCreditCard />,
     amount: '+$350',
-    title: 'Credit Card',
+    title: 'Debit Card',
     desc: 'Money reversed',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
@@ -707,25 +707,25 @@ export const recentTransactions = [
 export const weeklyStats = [
   {
     icon: <FiShoppingCart />,
-    amount: '-$560',
+    amount: '$560',
     title: 'Top Sales',
     desc: 'Johnathan Doe',
     iconBg: '#FB9678',
-    pcColor: 'red-600',
+    pcColor: 'green-600',
   },
   {
     icon: <FiStar />,
-    amount: '-$560',
-    title: 'Best Seller',
-    desc: 'MaterialPro Admin',
+    amount: '-$160',
+    title: 'Management',
+    desc: 'Tswaanda Admin',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'red-600',
   },
   {
     icon: <BsChatLeft />,
-    amount: '+$560',
-    title: 'Most Commented',
-    desc: 'Ample Admin',
+    amount: '+$30',
+    title: 'SDG Incent',
+    desc: 'Tswaanda Admin',
     iconBg: '#00C292',
     pcColor: 'green-600',
   },
@@ -787,11 +787,11 @@ export const medicalproBranding = {
   ],
   teams: [
     {
-      name: 'Bootstrap',
+      name: 'Horticulture',
       color: 'orange',
     },
     {
-      name: 'Angular',
+      name: 'Grains',
       color: '#FB9678',
     },
   ],
