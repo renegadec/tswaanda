@@ -124,7 +124,7 @@ const Register = () => {
                             {gerror && <label className="label text-error">
                                 <small>{gerror?.message.split('/')[1].slice(0,-2)}</small>
                             </label>}
-                            <input className="btn btn-outline btn-accent w-full" type="submit" value='Register' />
+                            <input disabled className="btn btn-outline btn-accent w-full" type="submit" value='Register' />
                         </form>
                         <div className='flex items-center'>
                             <label className="label">
@@ -135,7 +135,7 @@ const Register = () => {
                             </label>
                         </div>
                         <div className="divider">OR</div>
-                        <button onClick={handleSignInGoogle} className="btn btn-accent mb-6">sign in with Google</button>
+                        <button disabled onClick={handleSignInGoogle} className="btn btn-accent mb-6">sign in with Google</button>
                     </div>
                 </div>
 

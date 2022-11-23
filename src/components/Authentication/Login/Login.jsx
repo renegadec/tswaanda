@@ -115,7 +115,7 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="divider">OR</div>
-                        <button onClick={handleSignInGoogle} className="btn btn-accent">sign in with Google</button>
+                        <button disabled onClick={handleSignInGoogle} className="btn btn-accent">sign in with Google</button>
                     </div>
                 </div>
 

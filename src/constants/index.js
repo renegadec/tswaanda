@@ -77,18 +77,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Farmers Financed",
-    value: "340+",
+    title: "Farmer Financing",
+    value: "",
   },
   {
     id: "stats-2",
     title: "Partners Worldwide",
-    value: "94+",
+    value: "",
   },
   {
     id: "stats-3",
-    title: "Transactions",
-    value: "$4.6M+",
+    title: "Sustainability Incentives",
+    value: "",
   },
 ];
 
